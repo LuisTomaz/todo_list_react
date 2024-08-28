@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8%;
+}
+
+#root {
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 100px;
+}
+
+#span_do {
+  color: brown;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 20px auto;
+}
+
+ul button {
+  padding: 2px;
+  margin: 10px 5px;
+}
